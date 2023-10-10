@@ -99,7 +99,7 @@ def bacaULT4(pin):
 def setup():
     lcd.begin(16, 2)
     
-    lcd.print("Bilik Tersedia:")
+    lcd.print("Toilet available:")
     pinMode(ULT1, INPUT)
     pinMode(ULT2, INPUT)
     pinMode(ULT3, INPUT)
